@@ -1,0 +1,86 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+.navbar-brand {
+    width: 168px;
+    height: 30px;
+}
+
+.smile-logo {
+    width: 37px;
+    height: 30px;
+}
+
+.smile-slogan {
+    width: 114px;
+    height: auto;
+}
+
+.register-button:hover {
+    opacity: 0.9;
+}
+
+#first_container {
+    background-image: url('./images/pic_1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: transparent;
+}
+
+body h1 {
+    font-weight: 700;
+    font-size: 100px;
+}
+
+.btn-primary {
+    background-color: #C271FF !important;
+    border-color: #C271FF !important;
+    font-size: 14px !important;
+}
+
+.highlighted-word {
+    color: #C271FF;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+.round-card {
+    width: 150px;
+    height: 237px;
+}
+
+.round-card img {
+    width: 150px;
+    height: 150px;
+}
+
+.round-card h3 {
+    font-size: 18px;
+}
+
+.main-carousel {
+    background-color: #C271FF;
+}
+
+.carousel-img {
+    width: 160px;
+    height: 160px;
+}
+
+@media (max-width: 576px) {
+    body h1 {
+        font-size: 61px;
+    }
+}
+
+@media (min-width: 992px) {
+    #pro-cards {
+        width: 75vw;
+    }
+}
