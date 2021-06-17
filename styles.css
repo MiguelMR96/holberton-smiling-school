@@ -2,6 +2,8 @@ body {
     font-family: 'Source Sans Pro', sans-serif !important;
 }
 
+/* Navbar */
+
 .navbar-brand {
     width: 168px;
     height: 30px;
@@ -17,15 +19,21 @@ body {
     height: auto;
 }
 
+/* Register button */
+
 .register-button:hover {
     opacity: 0.9;
 }
+
+/* first page of web page */
 
 #first_container {
     background-image: url('./images/pic_1.jpg');
     background-size: cover;
     background-position: center;
 }
+
+/* Header */
 
 header {
     background-color: transparent;
@@ -35,6 +43,8 @@ body h1 {
     font-weight: 700;
     font-size: 100px;
 }
+
+/* Register button */
 
 .btn-primary {
     background-color: #C271FF !important;
@@ -64,6 +74,8 @@ h2 {
     font-size: 18px;
 }
 
+/* Carousel */
+
 .main-carousel {
     background-color: #C271FF;
 }
@@ -72,6 +84,73 @@ h2 {
     width: 160px;
     height: 160px;
 }
+
+.prev-icon-light {
+    background-image: url(./images/arrow_white_left.png) !important;
+    width: 30px !important;
+    height: 63px !important;
+}
+
+.next-icon-light {
+    background-image: url(./images/arrow_white_right.png) !important;
+    width: 30px !important;
+    height: 63px !important;
+}
+
+.author-img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Video carousel */
+
+.prev-icon-dark {
+    background-image: url(./images/arrow_black_left.png) !important;
+    width: 30px !important;
+    height: 63px !important;
+}
+
+.next-icon-dark {
+    background-image: url(./images/arrow_black_right.png) !important;
+    width: 30px !important;
+    height: 63px !important;
+}
+
+.stars {
+    width: 15px;
+    height: 15px;
+}
+
+.video-card {
+    max-width: 255px !important;
+    min-width: 255px !important;
+}
+
+.video-card-img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 255px;
+    height: 154px;
+}
+
+#card-1 {
+    background-image: url(./images/thumbnail_4.jpg);
+}
+
+#card-2 {
+    background-image: url(./images/thumbnail_3.jpg);
+}
+
+#card-3 {
+    background-image: url(./images/thumbnail_2.jpg);
+}
+
+#card-4 {
+    background-image: url(./images/thumbnail_1.jpg);
+}
+
+/* Media query */
 
 @media (max-width: 576px) {
     body h1 {
