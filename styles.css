@@ -150,6 +150,30 @@ h2 {
     background-image: url(./images/thumbnail_1.jpg);
 }
 
+/* Free membership Section */
+
+.dark-section {
+    background-color: #071629;
+}
+
+/* Latest Videos Section */
+
+#latest-1 {
+    background-image: url(./images/thumbnail_4.jpg)
+}
+
+#latest-2 {
+    background-image: url(./images/thumbnail_3.jpg);
+}
+
+#latest-3 {
+    background-image: url(./images/thumbnail_2.jpg);
+}
+
+#latest-4 {
+    background-image: url(./images/thumbnail_1.jpg);
+}
+
 /* Media query */
 
 @media (max-width: 576px) {
