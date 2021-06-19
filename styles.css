@@ -5,7 +5,7 @@ body {
 /* Navbar */
 
 .navbar-brand {
-    width: 168px;
+    width: 169px;
     height: 30px;
 }
 
@@ -172,6 +172,12 @@ h2 {
 
 #latest-4 {
     background-image: url(./images/thumbnail_1.jpg);
+}
+
+/* Footer */
+
+.media-icon {
+    font-size: 30px !important;
 }
 
 /* Media query */
