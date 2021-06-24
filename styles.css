@@ -1,3 +1,7 @@
+/* Homepage */
+
+/* Body */
+
 body {
     font-family: 'Source Sans Pro', sans-serif !important;
 }
@@ -192,4 +196,169 @@ h2 {
     #pro-cards {
         width: 75vw;
     }
+}
+
+/* Pricing page */
+
+/* Header */
+
+#pricing_container {
+    background-image: url('./images/pic_2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Grid prices */
+
+.th-title {
+    font-size: 44px;
+}
+
+.table-btn {
+    /*padding: 13px 36px;*/
+    background-color: #C271FF !important;
+}
+
+table .table-btn {
+    min-width: 162px;
+}
+
+.table-subtitle {
+    font-size: 12px;
+    opacity: 50%;
+    font-weight: 400;
+}
+
+.tr-title {
+    font-weight: 400 !important;
+    font-size: 18px;
+}
+
+.bordered-table-row {
+    border-bottom: 1px solid gray;
+}
+
+.table td, .table th {
+    padding: 1.25rem;
+}
+
+table i {
+    color: #82D24F;
+    font-size: 28px;
+}
+
+tbody tr:first-child {
+    display: none;
+}
+
+.signal-text {
+    font-size: 18px;
+}
+
+@media screen and (max-width: 576px) {
+
+    thead {
+        display: none;
+    }
+
+    tbody tr:first-child {
+        display: table-row;
+    }
+
+    tbody tr:first-child td {
+        font-size: 12px;
+        font-weight: bold;
+        min-width: 95px;
+        padding-bottom: 0px;
+    }
+}
+
+/* FAQ */
+
+.faq-section {
+    padding: 90px 0;
+}
+
+.faq-section h1, .faq-section h2, .faq-section .faq-answer {
+    color: #071629 !important;
+}
+
+.faq-section h1 {
+    font-size: 60px !important;
+    margin-bottom: 75px;
+}
+
+.one-faq h2 {
+    margin-left: -2px !important;
+}
+
+.faq-section .faq-answer {
+    font-weight: 14px;
+    opacity: 50%;
+    margin-bottom: 75px;
+    text-align: justify;
+}
+
+/* Courses Page */
+
+/* Header */
+
+#courses_container {
+    background-image: url('./images/pic_3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#courses-title {
+    font-size: 32px !important;
+    font-family: inherit !important;
+}
+
+/* Search and Filter */
+
+.font-custom-2 {
+    font-family: Coiny;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+
+.main-title {
+    height: 70px;
+    width: 480px;
+
+}
+
+.filter {
+    background-color: rgba(255, 255, 255, 0.25) !important;
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+    border-radius: 3px 3px 0px 0px;
+}
+
+::placeholder {
+    color: white !important;
+}
+
+label {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0px;
+
+}
+
+.grid-results {
+    max-width: 1240px !important;
+}
+
+.search-section {
+    background-color: #C271FF;
 }
